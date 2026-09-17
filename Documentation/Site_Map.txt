@@ -1,0 +1,39 @@
+LEAD by ELEVATE – PART 1 SITE MAP
+
+HOME – index.html
+  ├── Introduction / welcome
+  ├── What LEAD is
+  ├── Main activities
+  ├── Member expectations
+  └── Gallery link
+
+ABOUT – About.html
+  ├── Who we are
+  ├── Mission
+  ├── Vision
+  ├── What LEAD is not
+  ├── Member expectations
+  └── Values
+
+SERVICES – Services.html
+  ├── Leadership Development
+  ├── Mentorship
+  ├── Industry Exposure
+  ├── Career Growth
+  ├── Community Sessions
+  ├── Coaching
+  └── Events / Sessions
+
+ENQUIRY – Enquiry.html
+  ├── Full Name
+  ├── Email Address
+  ├── Area of Interest
+  └── Message
+
+CONTACT US – Contact Us.html
+  ├── Contact purpose
+  ├── Communication areas
+  └── Project evidence image
+
+GALLERY – Gallery.html
+  └── Supplied LEAD photographs and promotional graphics

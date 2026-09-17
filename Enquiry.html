@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LEAD by Elevate enquiry form.">
+  <title>Enquiry | LEAD by Elevate</title>
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Header contains the site title and the links used to move around the site. -->
+<header>
+  <h1>LEAD by ELEVATE</h1>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a> |
+    <a href="About.html">About</a> |
+    <a href="Services.html">Services</a> |
+    <a href="Enquiry.html">Enquiry</a> |
+    <a href="Contact%20Us.html">Contact Us</a> |
+    <a href="Gallery.html">Gallery</a>
+  </nav>
+</header>
+
+<!-- Main content contains the enquiry form used by a visitor. -->
+<main>
+  <h2>Make an Enquiry</h2>
+  <p>Use the form below to demonstrate how a visitor can submit an enquiry about LEAD by Elevate.</p>
+
+    <!-- The form collects the visitor details and area of interest. -->
+  <form id="enquiryForm">
+    <p>
+      <!-- The name field records the visitor name and is required. -->
+      <label for="name">Full Name</label><br>
+      <input id="name" name="name" type="text" required>
+    </p>
+    <p>
+      <!-- The email field uses the browser email format and is required. -->
+      <label for="email">Email Address</label><br>
+      <input id="email" name="email" type="email" required>
+    </p>
+    <p>
+      <!-- The select control lets the visitor choose the relevant LEAD area. -->
+      <label for="interest">Area of Interest</label><br>
+      <select id="interest" name="interest" required>
+        <option value="">Select an option</option>
+        <option>Leadership Development</option>
+        <option>Mentorship</option>
+        <option>Industry Exposure</option>
+        <option>Career Growth</option>
+        <option>Coaching</option>
+        <option>General Enquiry</option>
+      </select>
+    </p>
+    <p>
+      <!-- The message area allows the visitor to provide the enquiry details. -->
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="8" cols="60" required></textarea>
+    </p>
+    <!-- The button submits the form to the JavaScript handler and the paragraph displays its response. -->
+    <button type="submit">Submit Enquiry</button>
+    <p id="formMessage" aria-live="polite"></p>
+  </form>
+</main>
+
+<!-- Footer identifies the Part 1 website prototype. -->
+<footer>
+  <p><strong>LEAD by Elevate</strong> — Part 1 academic website prototype.</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

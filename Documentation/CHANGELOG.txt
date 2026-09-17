@@ -1,0 +1,34 @@
+LEAD by ELEVATE – CHANGELOG
+
+VERSION 1.0 – PART 1
+20 August 2026
+
+- Created the Home, About, Services, Enquiry, Contact Us and Gallery pages.
+- Added the common navigation menu.
+- Added the supplied LEAD photographs and promotional material.
+- Added the enquiry form.
+- Added the external CSS and JavaScript files.
+- Added the two website proposals and selected proposal.
+- Added the research material.
+- Added the site map and initial folder structure record.
+- Checked the page links and image paths.
+
+VERSION 1.1 – PART 1 DOCUMENTATION UPDATE
+15 September 2026
+
+- Added comments to the HTML files to identify the main sections and controls.
+- Added comments to the JavaScript used for navigation and the enquiry form.
+- Updated the project README with the website pages, features, structure, testing and technical requirements.
+- Added a development changelog.
+- Updated the folder structure record to match the submitted files and folders.
+- Added a wireframe document for the six website pages.
+- Retained the existing website content, layout, images, proposals, research and references.
+
+VERSION 1.2 – FINAL FILE CHECK
+16 September 2026
+
+- Checked the six HTML pages and their navigation links.
+- Checked the local image references.
+- Checked the CSS and JavaScript file paths.
+- Confirmed the enquiry form fields and JavaScript response.
+- Confirmed that the documentation matches the submitted project structure.
