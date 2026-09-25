@@ -1,0 +1,17 @@
+WEDE5020 PART 2 – SUBMISSION CHECK
+
+Included:
+- Six updated HTML pages
+- Shared external CSS stylesheet
+- Shared JavaScript file
+- Supplied project images
+- Responsive image variants
+- Updated README
+- Detailed changelog
+- Testing checklist and test results
+- Responsive design screenshot evidence folder
+
+Before LMS submission:
+1. Push the final project to the private GitHub repository supplied for the module.
+2. Use descriptive commit messages for the final updates.
+3. Submit the private GitHub repository link through the LMS as required.

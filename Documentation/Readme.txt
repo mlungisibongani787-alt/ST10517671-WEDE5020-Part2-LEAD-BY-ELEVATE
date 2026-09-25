@@ -1,4 +1,4 @@
-LEAD by ELEVATE – WEDE5020 PART 1
+LEAD by ELEVATE – WEDE5020 PART 2
 
 Student: Bongani Mlungisi Ndhlala
 Student Number: ST10517671
@@ -7,150 +7,98 @@ Campus: Rosebank College, Braamfontein Campus
 
 1. PROJECT OVERVIEW
 
-LEAD by ELEVATE is a development platform and community for young professionals and emerging leaders. The website gives visitors information about leadership development, mentorship, industry exposure, career growth, coaching and community activities.
+LEAD by ELEVATE is a development platform and community for young professionals and emerging leaders. The Part 2 website builds on the Part 1 HTML foundation by adding a complete external CSS stylesheet, responsive layouts, responsive images, typography, navigation styling, interactive states and a refined user interface.
 
-The website was developed for Part 1 as a basic HTML website. The pages and content are based on the selected LEAD by ELEVATE proposal and the research material supplied for the project.
+2. PART 2 CHANGES
 
-2. WEBSITE PURPOSE
-
-The website provides a clear place for visitors to:
-- Learn about LEAD by ELEVATE.
-- Read about its mission, vision and values.
-- View the services and activities offered.
-- View photographs and promotional material.
-- Send an enquiry through the form.
-- Find the available contact and communication information.
+Part 2 focused on applying the feedback and requirements for visual design and responsive design. The website was updated to include:
+- A consistent external stylesheet linked to all six pages.
+- A cohesive navy, warm-white, charcoal and gold/sage visual palette.
+- Desktop, tablet and mobile responsive layouts.
+- Responsive navigation with a mobile menu control.
+- CSS Grid and flexible layout techniques.
+- Responsive images using srcset, sizes and picture elements where appropriate.
+- Typography, spacing, borders, shadows and visual hierarchy.
+- CSS pseudo-classes including :hover, :focus, :focus-visible and :active.
+- Styled enquiry form controls and client-side feedback.
+- Improved accessibility through a skip link, labels, focus states and current-page navigation.
+- Improved page titles and meta descriptions.
 
 3. WEBSITE PAGES
 
 index.html – Home
-Introduces LEAD by ELEVATE and gives an overview of its purpose, activities and member expectations.
+Introduces LEAD by ELEVATE and provides calls to action, key activities and member expectations.
 
 About.html – About
-Provides the organisation background, mission, vision, values, member expectations and information about what LEAD is not.
+Explains the organisation, mission, vision, values and member expectations.
 
 Services.html – Services
-Describes leadership development, mentorship, industry exposure, career growth, community sessions, coaching and related activities.
+Presents leadership development, mentorship, industry exposure, career growth, community sessions and coaching.
 
 Enquiry.html – Enquiry
-Contains a form for a visitor to enter a name, email address, area of interest and message.
+Contains a styled enquiry form with required fields and JavaScript confirmation.
 
 Contact Us.html – Contact Us
-Provides the communication areas covered by the website and supporting project information.
+Provides the communication areas represented by the academic project and links visitors to the enquiry form.
 
 Gallery.html – Gallery
-Displays the supplied LEAD photographs and promotional material with captions and alternative text.
+Displays the supplied LEAD photographs and promotional material in a responsive CSS Grid layout.
 
-4. WEBSITE FEATURES
+4. TECHNOLOGIES
 
-- Six linked HTML pages.
-- Common navigation menu on all pages.
-- Home page link to the Gallery page.
-- Enquiry form with required fields.
-- JavaScript form confirmation.
-- JavaScript current-page navigation indicator.
-- Images stored in a separate images folder.
-- Alternative text on website images.
-- Figure captions used on the gallery images.
-- External CSS and JavaScript files.
+HTML5 is used for page structure and semantic content.
+CSS3 is used through css/style.css for layout, typography, colours, pseudo-classes, responsive breakpoints and visual styling.
+JavaScript is stored in js/script.js for current-page navigation, form confirmation and the footer year.
+Local JPG images are stored in images/ with responsive small and medium versions.
 
-5. TECHNOLOGIES
+5. RESPONSIVE DESIGN
 
-HTML5 is used for the page structure and content.
-CSS is stored in Website/css/style.css.
-JavaScript is stored in Website/js/script.js.
-Images are stored in Website/images.
+The website uses three practical screen ranges:
+- Desktop: full multi-column layouts and horizontal navigation.
+- Tablet: reduced grid columns and stacked content where needed.
+- Mobile: single-column content, mobile navigation and adjusted spacing and typography.
 
-6. HTML STRUCTURE
+Responsive images use max-width: 100%, aspect ratios, object-fit, srcset and sizes. The Gallery page uses lazy loading for non-critical images.
 
-The pages use standard HTML elements including html, head, body, header, nav, main, footer, headings, paragraphs, lists, links, images, figures, captions, labels, inputs, select, textarea and button elements.
+6. ACCESSIBILITY AND USABILITY
 
-The same basic page structure is used across the site so that the pages are easy to navigate.
+The pages use descriptive alternative text for images, labelled form controls, semantic headings, a skip-to-content link, visible keyboard focus states and an aria-current indicator for the active navigation page. The navigation changes to a mobile menu at smaller screen sizes.
 
-7. JAVASCRIPT
+7. TESTING
 
-The JavaScript file runs after the page has loaded. It reads the current page name and adds an active class to the matching navigation link. On the Enquiry page it stops the normal form submission, displays a confirmation message and resets the form after submission.
+The completed website was checked locally using a web server and a Chromium browser at desktop, tablet and mobile viewport sizes. The following areas were checked:
+- All six HTML pages load.
+- Navigation links resolve to the correct pages.
+- CSS loads on every page.
+- Images load from the local images folder.
+- Responsive image files exist and are referenced correctly.
+- Gallery images remain within their containers.
+- Layout changes at tablet and mobile breakpoints.
+- The mobile navigation opens and closes using the checkbox control.
+- Form required fields are present.
+- The enquiry form displays its confirmation message through JavaScript.
+- Keyboard focus styles are visible.
 
-8. IMAGES
+Responsive layouts were checked at desktop, tablet and mobile viewport widths during local testing.
 
-The website images are stored in Website/images. The Research/LEAD_Evidence folder also contains the supplied evidence images used during the project. The website images have descriptive alternative text and the gallery uses captions.
+8. CHANGELOG
 
-9. PROPOSALS AND RESEARCH
+See Documentation/CHANGELOG.txt for the detailed record of changes from Part 1 to Part 2.
 
-The Proposals folder contains the two website proposals submitted for the project. The Chosen Proposal folder contains the selected LEAD by ELEVATE proposal. The Research folder contains the ICE Task 1 material and supplied LEAD evidence.
+9. REFERENCES
 
-10. FOLDER STRUCTURE
+Mozilla Developer Network (MDN Web Docs) (n.d.) CSS media queries. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries (Accessed: 25 September 2026).
 
-ST10517671_Part 1/
-├── Chosen Proposal/
-│   └── Chosen Proposal LEAD by ELEVATE.pdf
-├── Proposals/
-│   ├── Proposal 1 LEAD by ELEVATE.pdf
-│   └── Proposal 2 Vu Dance and fitness.pdf
-├── Research/
-│   ├── ICE_TASK_1.pdf
-│   └── LEAD_Evidence/
-└── Website/
-    ├── index.html
-    ├── About.html
-    ├── Services.html
-    ├── Enquiry.html
-    ├── Contact Us.html
-    ├── Gallery.html
-    ├── css/
-    │   └── style.css
-    ├── js/
-    │   └── script.js
-    ├── images/
-    └── Documentation/
+Mozilla Developer Network (MDN Web Docs) (n.d.) Responsive images. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/HTML/Multimedia_and_embedding/Responsive_images (Accessed: 25 September 2026).
 
-11. SITEMAP
+Mozilla Developer Network (MDN Web Docs) (n.d.) CSS pseudo-classes. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes (Accessed: 25 September 2026).
 
-Home
-├── About
-├── Services
-├── Enquiry
-├── Contact Us
-└── Gallery
+Mozilla Developer Network (MDN Web Docs) (n.d.) CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed: 25 September 2026).
 
-The navigation menu is available from each page.
+World Wide Web Consortium (W3C) (n.d.) Web Content Accessibility Guidelines (WCAG). Available at: https://www.w3.org/WAI/standards-guidelines/wcag/ (Accessed: 25 September 2026).
 
-12. WIREFRAMES
+LEAD by ELEVATE (2026) Member expectations, welcome and community promotional material supplied for the WEDE5020 project.
 
-The wireframes show the planned structure of the Home, About, Services, Enquiry, Contact Us and Gallery pages. They show the header, navigation, main content areas, images, form area and footer before the pages were developed.
+10. SUBMISSION CHECK
 
-The wireframes are included in Documentation/Wireframes.pdf.
-
-13. TECHNICAL REQUIREMENTS
-
-- HTML5 pages.
-- Common header, navigation, main content and footer.
-- External CSS file.
-- External JavaScript file.
-- Local image files.
-- Relative links between pages.
-- Standard HTML form controls.
-- Descriptive alternative text for images.
-- No database or server-side processing is required for Part 1.
-
-14. TESTING
-
-The following were checked:
-- All six pages open correctly.
-- Navigation links point to the correct pages.
-- Home page and Gallery page links work.
-- Images load from the images folder.
-- Images have alternative text.
-- Gallery captions are displayed.
-- Enquiry fields are required.
-- Enquiry form confirmation is displayed by JavaScript.
-- Page navigation identifies the current page.
-- Files are stored in the required folders.
-
-15. REFERENCES
-
-LEAD by ELEVATE, “Member Expectations” and “Welcome to LEAD” promotional material, supplied by student, 2026.
-
-LEAD by ELEVATE, event and community photographs supplied by student, 2026.
-
-The original research and proposal references are retained in the submitted project material.
+The Part 2 project contains the updated HTML files, external CSS, JavaScript, local images, responsive image variants, documentation, changelog and testing screenshots.

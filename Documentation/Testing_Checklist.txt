@@ -1,40 +1,21 @@
-LEAD by ELEVATE – TESTING CHECKLIST
+WEDE5020 PART 2 TESTING CHECKLIST
 
-PAGE AND NAVIGATION
-[x] Home page opens.
-[x] About page opens.
-[x] Services page opens.
-[x] Enquiry page opens.
-[x] Contact Us page opens.
-[x] Gallery page opens.
-[x] Local page links are present.
-
-IMAGES
-[x] Images are stored in the images folder.
-[x] Image paths use local files.
-[x] Alternative text is included.
-
-ENQUIRY FORM
-[x] Name field is required.
-[x] Email field is required and uses email validation.
-[x] Area of Interest is required.
-[x] Message field is required.
-[x] Submit button is present.
-[x] JavaScript confirmation is displayed after submission.
-[x] Form fields are cleared after submission.
-
-SOURCE CODE
-[x] External CSS file is present.
-[x] External JavaScript file is present.
-[x] HTML contains code comments.
-[x] JavaScript contains code comments.
-[x] CSS contains code comments.
-
-DOCUMENTATION
-[x] README is included.
-[x] Folder structure is included.
-[x] Site map is included.
-[x] Proposal documents are included.
-[x] Research evidence is included.
-[x] Changelog is included.
-[x] References and source material are retained.
+[PASS] Six HTML pages load locally.
+[PASS] Shared external stylesheet is linked on all six pages.
+[PASS] Shared JavaScript file is linked on all six pages.
+[PASS] Navigation links point to the intended pages.
+[PASS] Active page is identified in the navigation.
+[PASS] Home hero image loads.
+[PASS] Gallery images load and remain within their cards.
+[PASS] Responsive image variants are present.
+[PASS] Desktop layout uses multiple columns where appropriate.
+[PASS] Tablet layout reduces columns and stacks content where appropriate.
+[PASS] Mobile layout uses a single column where appropriate.
+[PASS] Mobile navigation control is present.
+[PASS] Hover and focus states are styled.
+[PASS] Enquiry form required fields are present.
+[PASS] Enquiry form confirmation displays through JavaScript.
+[PASS] Keyboard focus indicators are visible.
+[PASS] Skip-to-content links are present.
+[PASS] Image alt text is present on content images.
+[PASS] Meta descriptions and page titles are present.

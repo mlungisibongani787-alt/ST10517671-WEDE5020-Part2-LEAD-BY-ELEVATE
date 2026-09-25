@@ -1,34 +1,59 @@
-LEAD by ELEVATE – CHANGELOG
+CHANGELOG – WEDE5020 PART 2
 
-VERSION 1.0 – PART 1
-20 August 2026
+Student: Bongani Mlungisi Ndhlala
+Student Number: ST10517671
 
-- Created the Home, About, Services, Enquiry, Contact Us and Gallery pages.
-- Added the common navigation menu.
-- Added the supplied LEAD photographs and promotional material.
-- Added the enquiry form.
-- Added the external CSS and JavaScript files.
-- Added the two website proposals and selected proposal.
-- Added the research material.
-- Added the site map and initial folder structure record.
-- Checked the page links and image paths.
+PART 2 – SEPTEMBER 2026
 
-VERSION 1.1 – PART 1 DOCUMENTATION UPDATE
-15 September 2026
+1. Feedback and foundation review
+- Reviewed the Part 1 website structure and retained the six-page navigation and supplied project content.
+- Kept the existing LEAD by ELEVATE information architecture while improving the presentation and user experience.
 
-- Added comments to the HTML files to identify the main sections and controls.
-- Added comments to the JavaScript used for navigation and the enquiry form.
-- Updated the project README with the website pages, features, structure, testing and technical requirements.
-- Added a development changelog.
-- Updated the folder structure record to match the submitted files and folders.
-- Added a wireframe document for the six website pages.
-- Retained the existing website content, layout, images, proposals, research and references.
+2. External stylesheet
+- Rebuilt css/style.css as the shared stylesheet for all six pages.
+- Added CSS variables for the site colour palette, spacing and common visual values.
+- Added a CSS reset/base box-sizing rule and consistent typography.
 
-VERSION 1.2 – FINAL FILE CHECK
-16 September 2026
+3. Desktop styling
+- Added a structured header, navigation, hero section, content sections, cards, forms, gallery and footer.
+- Added CSS Grid for multi-column layouts.
+- Added consistent typography, spacing, borders, rounded corners and shadows.
+- Added button and interactive element styling.
 
-- Checked the six HTML pages and their navigation links.
-- Checked the local image references.
-- Checked the CSS and JavaScript file paths.
-- Confirmed the enquiry form fields and JavaScript response.
-- Confirmed that the documentation matches the submitted project structure.
+4. Responsive design
+- Added tablet and mobile media queries.
+- Added responsive grid changes for cards and gallery items.
+- Added stacked layouts for hero, content and form sections on smaller screens.
+- Added a mobile navigation menu using a checkbox control.
+- Added responsive typography and spacing adjustments.
+
+5. Responsive images
+- Added small and medium image variants for the supplied project photographs.
+- Added srcset and sizes attributes to important images.
+- Added picture sources on the Home page hero image.
+- Added lazy loading to Gallery images that are below the initial viewport.
+
+6. Pseudo-classes and interaction states
+- Added :hover, :active, :focus and :focus-visible styling.
+- Added hover movement and visual feedback to buttons, navigation links and cards.
+- Added clear keyboard focus indicators.
+
+7. HTML and accessibility improvements
+- Added skip-to-content links.
+- Added aria-current to the active navigation item through JavaScript.
+- Improved labels and autocomplete attributes on the enquiry form.
+- Added descriptive page titles and meta descriptions.
+- Improved semantic grouping with sections, articles, figures and navigation lists.
+
+8. JavaScript improvements
+- Retained current-page navigation functionality and improved handling of encoded page names.
+- Retained enquiry form client-side confirmation.
+- Added automatic current-year output in the footer.
+
+9. Testing
+- Tested the website locally with Chromium at desktop, tablet and mobile viewport sizes.
+- Checked navigation, images, CSS loading, responsive layout, form interaction and page rendering.
+- Screenshot evidence was saved under Documentation/Screenshots/.
+
+10. References
+- Added and updated the reference list in Documentation/Readme.txt for CSS responsive design, responsive images, pseudo-classes, CSS Grid and accessibility guidance.

@@ -1,0 +1,33 @@
+WEDE5020 PART 2 – LOCAL TEST RESULTS
+
+Test date: 25 September 2026
+
+Environment: Local Python HTTP server and Chromium-based desktop environment.
+
+HTTP page checks
+- index.html: PASS (HTTP 200)
+- About.html: PASS (HTTP 200)
+- Services.html: PASS (HTTP 200)
+- Enquiry.html: PASS (HTTP 200)
+- Contact Us.html: PASS (HTTP 200)
+- Gallery.html: PASS (HTTP 200)
+- css/style.css: PASS (HTTP 200)
+- js/script.js: PASS (HTTP 200)
+
+Static checks
+- All six pages contain the shared navigation: PASS
+- All six pages contain a page title: PASS
+- All six pages contain a meta description: PASS
+- Shared external stylesheet is linked: PASS
+- Shared JavaScript file is linked: PASS
+- Local image references resolve: PASS
+- Responsive image variants exist: PASS
+- JavaScript syntax check: PASS
+
+Responsive implementation checks
+- Desktop grid layout: PASS
+- Tablet breakpoint: PASS
+- Mobile breakpoint: PASS
+- Mobile navigation control: PASS
+- Responsive images using srcset/sizes/picture: PASS
+- Hover and focus states: PASS

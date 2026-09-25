@@ -1,58 +1,34 @@
-ST10517671_Part 1/
-│
-├── Chosen Proposal/
-│   └── Chosen Proposal LEAD by ELEVATE.pdf
-│
-├── Proposals/
-│   ├── Proposal 1 LEAD by ELEVATE.pdf
-│   └── Proposal 2 Vu Dance and fitness.pdf
-│
-├── Research/
-│   ├── ICE_TASK_1.pdf
-│   └── LEAD_Evidence/
-│       ├── krish_coaching_poster.jpg
-│       ├── lead_group_coffee_01.jpg
-│       ├── lead_group_coffee_06.jpg
-│       ├── lead_group_coffee_08.jpg
-│       ├── lead_group_outside_02.jpg
-│       ├── lead_member_expectations_poster.jpg
-│       ├── lead_team_indoor_05.jpg
-│       ├── lead_team_polo_03.jpg
-│       ├── lead_team_uniform_07.jpg
-│       └── lead_youth_visit_04.jpg
-│
-└── Website/
-    ├── index.html
-    ├── About.html
-    ├── Services.html
-    ├── Enquiry.html
-    ├── Contact Us.html
-    ├── Gallery.html
-    ├── css/
-    │   └── style.css
-    ├── js/
-    │   └── script.js
-    ├── images/
-    │   ├── krish_coaching_poster.jpg
-    │   ├── lead_group_coffee_01.jpg
-    │   ├── lead_group_coffee_06.jpg
-    │   ├── lead_group_coffee_08.jpg
-    │   ├── lead_group_outside_02.jpg
-    │   ├── lead_member_expectations_poster.jpg
-    │   ├── lead_team_indoor_05.jpg
-    │   ├── lead_team_polo_03.jpg
-    │   ├── lead_team_uniform_07.jpg
-    │   └── lead_youth_visit_04.jpg
-    └── Documentation/
-        ├── CHANGELOG.txt
-        ├── Folder_Structure.txt
-        ├── Folder_Structure.png
-        ├── LEAD_POE_Part1.pdf
-        ├── Part_1_Style_Reference.jpg
-        ├── Proposals.txt
-        ├── Readme.txt
-        ├── Research_and_Content.txt
-        ├── Site_Map.txt
-        ├── Site_Map.png
-        ├── Testing_Checklist.txt
-        └── Wireframes.pdf
+LEAD by ELEVATE – PART 2 FOLDER STRUCTURE
+
+WEB-Part-1-main/
+├── index.html
+├── About.html
+├── Services.html
+├── Enquiry.html
+├── Contact Us.html
+├── Gallery.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── original supplied JPG images
+│   ├── *-small.jpg responsive variants
+│   └── *-medium.jpg responsive variants
+└── Documentation/
+    ├── CHANGELOG.txt
+    ├── Folder_Structure.txt
+    ├── LEAD_POE_Part1.pdf
+    ├── Part_1_Style_Reference.jpg
+    ├── Proposals.txt
+    ├── Readme.txt
+    ├── Research_and_Content.txt
+    ├── Site_Map.txt
+    ├── Testing_Checklist.txt
+    ├── Wireframes.pdf
+    ├── folder_structure.png
+    ├── site_map.png
+    └── Screenshots/
+        ├── desktop-home.png
+        ├── tablet-home.png
+        └── mobile-home.png
